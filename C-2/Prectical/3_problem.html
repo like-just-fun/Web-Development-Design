@@ -1,20 +1,69 @@
 <!DOCTYPE html>
+<!-- This tells the browser that we are using HTML5 -->
+
 <html lang="en">
+<!-- The HTML document starts here.
+     lang="en" means the page language is English. -->
 
 <head>
+    <!-- The <head> contains information about the webpage.
+         This information is mostly not directly shown on the page. -->
+
     <meta charset="UTF-8">
+    <!-- Allows the browser to correctly display characters and symbols. -->
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Makes the webpage adjust properly to different screen sizes,
+         such as mobile, tablet, and computer. -->
+
     <title>HTML Book</title>
+    <!-- This text appears in the browser tab. -->
+
 </head>
 
 <body>
+    <!-- Everything inside <body> is displayed on the webpage. -->
+
     <h1>About HTML</h1>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatem eius maxime iusto, fugiat aspernatur
-        repellat voluptates nisi aperiam quam sint culpa dolorum ullam beatae, illum molestiae porro magni magnam odit.
-        Aperiam, tempora.</p>
+    <!-- <h1> creates the main/largest heading.
+         Browser displays: "About HTML" -->
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Voluptatem eius maxime iusto, fugiat aspernatur repellat
+        voluptates nisi aperiam quam sint culpa dolorum ullam beatae,
+        illum molestiae porro magni magnam odit. Aperiam, tempora.
+    </p>
+    <!-- <p> creates a paragraph.
+         The browser displays this text as a paragraph. -->
+
     <hr>
-    <span>hey</span><span>hero</span>
-    <span>hey</span><br><span>hero</span>
+    <!-- <hr> creates a horizontal line across the page.
+         It separates the content above and below it. -->
+
+    <span>Hey</span>
+    <!-- <span> is an inline element.
+         "Hey" appears on the current line. -->
+
+    <span>Hero</span>
+    <!-- Another inline element.
+         Because span is inline, "Hero" appears next to "Hey".
+         Result: Hey Hero -->
+
+    <br>
+    <!-- <br> means line break.
+         It moves the next content to a new line. -->
+
+    <span>Hey</span>
+    <!-- This "Hey" appears on the new line. -->
+
+    <span>Hero</span>
+    <!-- This is also inline, so it appears next to the second "Hey".
+         Result:
+         Hey Hero
+         Hey Hero -->
+
 </body>
 
 </html>
+<!-- The HTML document ends here. -->
