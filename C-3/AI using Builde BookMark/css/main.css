@@ -1,0 +1,74 @@
+/* Change the style of the whole page */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f1f5f9;
+    color: #1e293b;
+}
+
+/* Keep the content centered and limit its width */
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+/* Style the main heading */
+h1 {
+    text-align: center;
+    color: #2563eb;
+}
+
+/* Create a card for each bookmark group */
+.bookmark-section {
+    margin-top: 25px;
+    padding: 25px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: 0 4px 12px #0000001a;
+}
+
+/* Primary section color */
+.primary {
+    border-left: 6px solid #2563eb;
+}
+
+/* AI section color */
+.secondary {
+    border-left: 6px solid #7c3aed;
+}
+
+/* Style section headings */
+h2 {
+    margin-top: 0;
+}
+
+/* Style the description text */
+p {
+    color: #64748b;
+}
+
+/* Make each link look like a button */
+a {
+    display: inline-block;
+    margin: 8px 6px 0 0;
+    padding: 10px 14px;
+    border-radius: 6px;
+    background-color: #2563eb;
+    color: white;
+    text-decoration: none;
+}
+
+/* Change the link color when the mouse is over it */
+a:hover {
+    background-color: #1d4ed8;
+}
+
+/* Use a purple color for AI links */
+.secondary a {
+    background-color: #7c3aed;
+}
+
+.secondary a:hover {
+    background-color: #6d28d9;
+}
